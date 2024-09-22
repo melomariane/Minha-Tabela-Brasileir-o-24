@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #ffffff;
+    overflow-x: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+table{
+    width: 100vw;
+    text-align: center;
+}
+.header{
+    background-color: green;
+    color: #ffffff;
+    border: 2px solid black;
+    box-shadow: 0px 2px 4px #888888;
+    border-collapse: collapse;
+    font-size: 0.75em;
+    position: fixed;
+}
+#logo td{
+    height: 48px;
+    padding-top: 4px;
+}
+
+td{
+    height: 50px;
+    width: 104px;
+}
+.nav-conteudo-lateral{
+    width: 400px;
+}
+.nav-destacado {
+    border-bottom: 3px solid white;
+}
+.nav-destacado:hover{
+    background-color: #0e482a;
+    cursor: pointer;
+}
+.tabela-brasileirao{
+    position: absolute;
+    margin-top: 107px;
+    z-index: -1;
+
+    border: 1px solid #e9eaeb;
+    border-top: none;
+    border-bottom: none;
+    width: 40vw;
+    margin-left: 30%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+.tabela-brasileirao th{
+  border-top: 1px solid #dadec0;
+  padding: 4px;
+  height: 35px;
+}
+.tabela-brasileirao td{
+    border-top: 1px solid #b7bfb7;
+    color:#0d0e14;
+    padding:4px;
+    height: 15px;
+    font-size: 1em;
+    font-weight: 100;
+}
+#tabela-brasileirao-header{
+    background-color: #e8e6e6;
+    text-align: left;
+    color: #0d0e14;
+    padding: 15px;
+    padding-left: 20px;
+}
+#ano{
+    font-weight: 600;
+    color: #4285f4;
+}
+a:link{
+    color: #0d0e14;
+    text-decoration: none;
+}
+a:visited{
+    color: #0d0e14;
+    text-decoration: none;
+}
+.tabela-brasileirao img{
+    width: 25px;
+}
+.tabela-colunas-bordas{
+    border-top: none !important;
+}
+.nome-clube{
+    width: 35%;
+    text-align: left;
+}
+.coluna-cinco{
+    width: 20%;
+}
+.coluna-cinco img{
+    width: 15px;
+}
+.linha-azul{
+    border-left: 3px solid #4285f4;
+}
+.linha-laranja{
+    border-left: 3px solid #e56605;
+}
+.linha-verde{
+    border-left: 3px solid #29d70b;
+}
+.linha-vermelha{
+    border-left: 3px solid #de0909;
+}
+.Legenda-Roda-pé table{
+    width: 40vw;
+    margin: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #b7bfb7;
+    border-radius: 3px;
+    padding: 15px;
+    text-align: left;
+    background-color: #dceddc;
+}
+.Legenda-Roda-pé th{
+    border-top: none;
+    font-size: 1em;
+    color: #000;
+}
+.Legenda-Roda-pé img{
+   width: 10px;
+}
+.Legenda-Roda-pé td{
+    border-top: none;
+    font-size: 1em;
+    height: 3px;
+    width: 50%;
+ }
